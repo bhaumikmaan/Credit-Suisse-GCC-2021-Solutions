@@ -10,7 +10,16 @@ class TestClass {
 
     public static int solution(int n)
     {
-
+        int x ;
+        if(n%3 == 0)
+        {
+            x = n/3 + n/3 ;
+        }
+        else
+        {
+            x = (n/3 + 1) + n/3 ;
+        }
+        return x ;
     }
 
 
